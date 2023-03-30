@@ -1,0 +1,13 @@
+{
+  "gateways": [
+    {
+      "label": "openai",
+      "openApiSpec": "https://raw.githubusercontent.com/openai/openai-openapi/master/openapi.yaml",
+      "providers": {
+        "TOKEN": {
+          "fromEnv": "OPEN_AI_KEY"
+        }
+      }
+    }
+  ]
+}
